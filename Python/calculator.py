@@ -1,16 +1,16 @@
 # Program make a simple calculator that can add, subtract, multiply and divide using functions
 # This function adds two numbers 
-def add(x, y):
-   return x + y
+def add(a, b):
+   return a + b
 # This function subtracts two numbers 
-def subtract(x, y):
-   return x - y
+def subtract(a, b):
+   return a - b
 # This function multiplies two numbers
-def multiply(x, y):
-   return x * y
+def multiply(a, b):
+   return a * b
 # This function divides two numbers
-def divide(x, y):
-   return x / y
+def divide(a, b):
+   return a / b
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -29,4 +29,4 @@ elif choice == '3':
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
 else:
-   print("Invalid input")
+   print("Invalid input for the calculator")
