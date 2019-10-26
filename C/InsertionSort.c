@@ -1,7 +1,7 @@
 #include<stdio.h>
+#include<conio.h>
 
-void main(){
-    int a[] ={10,9,8,7,6,5,4,3,2,1};
+sort(int a[]){
     int b[11];
     int i,j ,key;
     for( i= 1 ; i <10;i++){
@@ -17,4 +17,10 @@ void main(){
     for( i=0 ; i< 10 ; i++){
         printf("%d ",a[i]);
     } 
+}
+
+void main (){
+        int a[] ={10,9,8,7,6,5,4,3,2,1};
+        sort(a[]);
+        getch();   
 }
